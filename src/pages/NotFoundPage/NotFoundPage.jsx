@@ -10,25 +10,12 @@ const NotFoundPage = () => {
     <Section>
       <Container>
         <div className={css.imageBox}>
-          {/* <div className={css.imageWrapper}>
-            <img
-              src={image}
-              alt="the night in the wood"
-              className={css.image}
-            />
-          </div> */}
           <div className={css.titleWrapper}>
             <h1 className={css.title}>404 ERROR</h1>
             <NavLink className={css.btn} to="/">
               Go home
             </NavLink>
           </div>
-        </div>
-        <div className={css.wrapper}>
-          <ErrorMessage
-            title="Looks like you’ve gotten lost..."
-            message="The page you were looking for is no longer here."
-          />
         </div>
       </Container>
     </Section>
